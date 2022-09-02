@@ -43,7 +43,7 @@ then
 
     if [ ! -z "$8" ];
     then
-        COMMAND_LINE="$COMMAND_LINE shield_gravity "$8" "
+        COMMAND_LINE="$COMMAND_LINE --shield_gravity "$8" "
     fi
 
     if [ ! -z "$9" ];
